@@ -1,0 +1,74 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.site_title {
+  float: left;
+  font-size: 23px;
+  font-family: Brush Script MT;
+  color: white;
+  margin-top: 10px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #A9A8A7;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+
+.dropdown_content {
+  display: none;
+  margin-top: 45px;
+  position: absolute;
+  background-color: #7F7F7F;
+  min-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown_content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown_content a:hover {
+  background-color: #A9A8A7;
+}
+
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
